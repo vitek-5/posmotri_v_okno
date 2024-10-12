@@ -53,9 +53,8 @@ fieldset {
 
 .content {
   display: flex;
-  width: 1200px;
+  width: 1140px;
   margin: auto;
-  padding:  30px;
   align-items: end;
   gap: 30px;
 }
@@ -158,11 +157,7 @@ fieldset {
 
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::before,
 .search-form__checkbox:active + .search-form__pseudo-checkbox::before {
-<<<<<<< HEAD
-  content: "";
-=======
   content: '';
->>>>>>> cd19779ea24ccc0034e3e78a380a271f19ab8da6
   width: 15px;
   height: 15px;
   background-color: #fff;
@@ -201,10 +196,6 @@ fieldset {
 
 .content__accent {
   color: #545050;
-<<<<<<< HEAD
-=======
-
->>>>>>> cd19779ea24ccc0034e3e78a380a271f19ab8da6
 }
 
 .content__list {
@@ -218,18 +209,10 @@ fieldset {
   width: 100%;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> cd19779ea24ccc0034e3e78a380a271f19ab8da6
 .content__list-item:not(:last-child) {
   margin-bottom: 30px;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> cd19779ea24ccc0034e3e78a380a271f19ab8da6
 .content__card-link {
   display: block;
   width: 100%;
@@ -241,40 +224,22 @@ fieldset {
 .content__video-card {
   width: 100%;
   display: flex;
-<<<<<<< HEAD
-}
-
-.search-form__label:has(:focus-visible),
-.search-form__submit-button:focus-visible,
-=======
 
 }
 
 .search-form__label:has(:focus-visible),
 .search-form__submit-button:focus-visible, 
->>>>>>> cd19779ea24ccc0034e3e78a380a271f19ab8da6
 .content__card-link:focus-visible {
   outline: 1px solid #fff;
   outline-offset: 1px;
 }
 
-<<<<<<< HEAD
-.search-form__label-text:hover,
-.button:hover,
-.content__card-link:hover {
-=======
 .search-form__label-text:hover, .button:hover, .content__card-link:hover {
->>>>>>> cd19779ea24ccc0034e3e78a380a271f19ab8da6
   text-decoration: underline;
   text-decoration-skip-ink: none;
 }
 
-<<<<<<< HEAD
-.button:active,
-.content__card-link:active {
-=======
 .button:active, .content__card-link:active {
->>>>>>> cd19779ea24ccc0034e3e78a380a271f19ab8da6
   background-color: #545050;
   text-decoration: none;
 }
